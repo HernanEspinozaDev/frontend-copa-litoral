@@ -23,43 +23,43 @@
           <nav class="hidden md:flex items-center space-x-8">
             <router-link 
               to="/" 
-              class="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-              :class="{ 'text-primary-600 dark:text-primary-400 font-medium': $route.name === 'home' }"
+              class="text-gray-700 dark:text-gray-300 hover:text-naranja-arcilla-500 dark:hover:text-naranja-arcilla-400 transition-colors"
+              :class="{ 'text-naranja-arcilla-500 dark:text-naranja-arcilla-400 font-medium': $route.name === 'home' }"
             >
               Inicio
             </router-link>
             <router-link 
               to="/cuadros" 
-              class="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-              :class="{ 'text-primary-600 dark:text-primary-400 font-medium': $route.name === 'brackets' }"
+              class="text-gray-700 dark:text-gray-300 hover:text-naranja-arcilla-500 dark:hover:text-naranja-arcilla-400 transition-colors"
+              :class="{ 'text-naranja-arcilla-500 dark:text-naranja-arcilla-400 font-medium': $route.name === 'brackets' }"
             >
               Cuadros
             </router-link>
             <router-link 
               to="/agenda" 
-              class="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-              :class="{ 'text-primary-600 dark:text-primary-400 font-medium': $route.name === 'schedule' }"
+              class="text-gray-700 dark:text-gray-300 hover:text-naranja-arcilla-500 dark:hover:text-naranja-arcilla-400 transition-colors"
+              :class="{ 'text-naranja-arcilla-500 dark:text-naranja-arcilla-400 font-medium': $route.name === 'schedule' }"
             >
               Agenda
             </router-link>
             <router-link 
               to="/historial" 
-              class="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-              :class="{ 'text-primary-600 dark:text-primary-400 font-medium': $route.name === 'history' }"
+              class="text-gray-700 dark:text-gray-300 hover:text-naranja-arcilla-500 dark:hover:text-naranja-arcilla-400 transition-colors"
+              :class="{ 'text-naranja-arcilla-500 dark:text-naranja-arcilla-400 font-medium': $route.name === 'history' }"
             >
               Historial
             </router-link>
             <router-link 
               to="/auspiciadores" 
-              class="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-              :class="{ 'text-primary-600 dark:text-primary-400 font-medium': $route.name === 'sponsors' }"
+              class="text-gray-700 dark:text-gray-300 hover:text-naranja-arcilla-500 dark:hover:text-naranja-arcilla-400 transition-colors"
+              :class="{ 'text-naranja-arcilla-500 dark:text-naranja-arcilla-400 font-medium': $route.name === 'sponsors' }"
             >
               Auspiciadores
             </router-link>
             <router-link 
               to="/contacto" 
-              class="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-              :class="{ 'text-primary-600 dark:text-primary-400 font-medium': $route.name === 'contact' }"
+              class="text-gray-700 dark:text-gray-300 hover:text-naranja-arcilla-500 dark:hover:text-naranja-arcilla-400 transition-colors"
+              :class="{ 'text-naranja-arcilla-500 dark:text-naranja-arcilla-400 font-medium': $route.name === 'contact' }"
             >
               Contacto
             </router-link>

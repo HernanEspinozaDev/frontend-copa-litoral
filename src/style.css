@@ -14,14 +14,26 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-primary-600 hover:bg-primary-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+    @apply bg-azul-marino-900 hover:bg-azul-marino-800 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
   }
   
   .btn-secondary {
-    @apply bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+    @apply bg-naranja-arcilla-500 hover:bg-naranja-arcilla-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
   }
   
   .card {
     @apply bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 p-6;
+  }
+  
+  .copa-litoral-gradient {
+    @apply bg-gradient-to-r from-azul-marino-900 via-azul-marino-800 to-naranja-arcilla-500;
+  }
+  
+  .copa-litoral-text {
+    @apply text-azul-marino-900 dark:text-white;
+  }
+  
+  .copa-litoral-accent {
+    @apply text-naranja-arcilla-500;
   }
 }

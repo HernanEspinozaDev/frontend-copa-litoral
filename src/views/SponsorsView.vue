@@ -50,7 +50,7 @@
       </section>
 
       <!-- Become a Sponsor -->
-      <section class="bg-gradient-to-r from-primary-600 to-primary-800 rounded-lg text-white p-8 text-center">
+      <section class="copa-litoral-gradient rounded-lg text-white p-8 text-center">
         <h2 class="text-2xl font-bold mb-4">¿Quieres ser parte de la Copa Litoral?</h2>
         <p class="text-lg mb-6 opacity-90">
           Únete a nuestros auspiciadores y haz crecer tu marca junto al torneo de tenis más prestigioso de la región
@@ -58,13 +58,13 @@
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <router-link 
             to="/contacto" 
-            class="bg-white text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+            class="bg-white text-azul-marino-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
           >
             Contáctanos
           </router-link>
           <a 
             href="mailto:sponsors@copalitoral.cl" 
-            class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors"
+            class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-azul-marino-900 transition-colors"
           >
             sponsors@copalitoral.cl
           </a>
